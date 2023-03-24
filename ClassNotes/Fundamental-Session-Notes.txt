@@ -43,6 +43,8 @@ PRE-REQ
 	----------------------------------
 			H/W(ram,processor,storage,)
 		  
+################################################################
+
 	
 			CLI (commandLine interface) 
 	====================
@@ -99,6 +101,7 @@ PRE-REQ
  cd ~          -----> change path to home directory 
  
  python3       ------> python command for MAC-OS
+ 
 ### SHORTCUTS 
 ==========================
 	WINDOW KEY + < or >   : split screen
@@ -111,7 +114,8 @@ PRE-REQ
 	WINDOWS+S             : search..
 	
 
-## INSTALLATION....
+## INSTALLATION....################
+
 - python interpreter
 	https://www.python.org/
 	
@@ -128,6 +132,33 @@ PRE-REQ
 	https://code.visualstudio.com/download
 	
 	
+	
+1. Python Interperter Installing
+ Go to Python.org install latest version 
+   once downloaded just run/open the .exe following steps
+   
+2. By default python interpreter will install in following path
+		C:\Users\ACER\AppData\Local\Programs\Python
+	copy the required version path 
+	
+3. Open Environment system variables 
+	under System Variables 
+	add new entry of copied path 
+	4. open Command Prompt 
+		type: 
+		
+			windows-os
+			=================
+			python --version
+			python -V
+			
+			mac-os
+			===============
+			python3 --version
+			python3 -V
+			
+			
+			
 ##DIFFERENT WAYS OF RUNNING PYTHON CODE 
 - 	command prompt 
 -   python shell/ IDLE 
@@ -169,29 +200,7 @@ PRE-REQ
 
 
 
-1. Python Interperter Installing
-1. Go to Python.org install latest version 
-   once downloaded just run/open the .exe following steps
-   
-2. By default python interpreter will install in following path
-		C:\Users\ACER\AppData\Local\Programs\Python
-	copy the required version path 
-	
-3. Open Environment system variables 
-	under System Variables 
-	add new entry of copied path 
-	4. open Command Prompt 
-		type: 
-		
-			windows-os
-			=================
-			python --version
-			python -V
-			
-			mac-os
-			===============
-			python3 --version
-			python3 -V
+
 			
 	
  
