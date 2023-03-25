@@ -18,9 +18,21 @@ FUNDAMENTALS SESSION-1
 FUNDAMENTALS SESSION-2
 ============================
 - different ways of executing python program
+	- command prompt
+	- shell/IDLE
+
 - Installation of tools like git bash , anaconda , vscode , python.
 - Overview of IDLE and jupyter notebook
 - workspace setup.
+
+
+FUNDAMENTALS SESSION-3
+============================
+- jupyter overview 
+- different ways of python execution
+- programming lanaguages & python introduction 
+- translation tools 
+
 
 PRE-REQ
 ==============
@@ -128,10 +140,19 @@ PRE-REQ
   anaconda 
 	https://www.anaconda.com/products/distribution
 	
-- vscode 
+- vscode IDE
 	https://code.visualstudio.com/download
 	
 	
+	
+#### WORKSPACE SETUP###############
+	- PythonTraining
+		- orgPython
+		- myPython
+			- jupyterPractise
+			
+			
+git clone https://github.com/anil-k-rajamoni18/Py_March_23.git
 	
 1. Python Interperter Installing
  Go to Python.org install latest version 
@@ -191,6 +212,7 @@ PRE-REQ
 		print(a + b)
 	
 	- HL(soure code) ---> Complier/Intepreter(translation)---> Binary Code(0,1)
+	HL(c,python,java) --compiler/interperter--> Machine Code(0,1)
 		
 		c , c++ , java 			-->  compilers
 		javascript , python , go --> intepreters
@@ -198,23 +220,7 @@ PRE-REQ
 		==> COMPILER VS Interpreter.
 
 
-
-
-
-			
-	
- 
-
-
- 
-	READ A 
-	READ B 
-	ADD A B 
-	OUT RESULT
-	
-	
-	HL(c,python,java) --compiler/interperter--> Machine Code(0,1)
 	
 	
 	
-What is Git & GitHub and most used commands?
+	
