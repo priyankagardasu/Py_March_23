@@ -20,6 +20,8 @@ FUNDAMENTALS SESSION-2
 - different ways of executing python program
 	- command prompt
 	- shell/IDLE
+	- jupyter notebook
+	- vscode 
 
 - Installation of tools like git bash , anaconda , vscode , python.
 - Overview of IDLE and jupyter notebook
@@ -32,6 +34,7 @@ FUNDAMENTALS SESSION-3
 - different ways of python execution
 - programming lanaguages & python introduction 
 - translation tools 
+	compiler vs interpreter.
 
 
 PRE-REQ
@@ -185,6 +188,10 @@ git clone https://github.com/anil-k-rajamoni18/Py_March_23.git
 -   python shell/ IDLE 
 - 	VSCODE 
 - 	jupyter notebook
+
+
+
+
 
 ### INTRODUCTION TO PROGRAMMING ###########
 ====================================================
