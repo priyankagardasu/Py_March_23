@@ -1,0 +1,104 @@
+##DATA TYPES
+=====================
+Number 
+============
+	Integer --> +ve & -ve whole numbers
+	Float ---> -ve and +ve decimal numbers
+	Complex --> a+bj , a : real , b: imaginary , j: constant
+				2+3j
+				
+STRINGS
+====================
+- collectional of one or more characters(letters,symbol,special characters,regional lang letters,numbers)
+- anything inside quotes ---------> string
+	"kumar"
+	'A'
+	"Kumar@1265"
+	"1028"
+	"209.28"
+	
+-notations
+	' '
+	" "
+	"""  """
+	'''  '''
+	
+	'' helo '' --> error
+	""  hello "" --> error
+	
+BOOLEAN
+==============
+	- True  --> 1
+	- False --> 0
+	
+LIST 
+==============
+	- ordered collectional which stores both homo and hetro elements 
+	- it's mutable 
+	names = ["kumar" ,10,102.2,True]
+	- allows duplicates
+	- indexing for list 
+		=> positive 
+			0 --> N-1
+			
+		==>Negative 
+			- 1 --> -N
+			
+	== METHODS 
+		---> insertion  methods
+			- append(obj)  : always add the data/obj at end of the list
+
+			- insert(index,obj)
+				+ve invalid index it will insert at end 
+				- ve invalid index it will insert at beginning.
+
+			- extend([obj1,obj2,obj3,obj..n])
+			
+		-- deletion methods
+			- pop(index=-1) : it will remove default element at index = -1
+				- whenever we try to pop invalid index or empty list always throws Error.
+			- remove(elements)
+			
+		--- popular methods
+			- sort() 
+				sort(reverse=False)
+				sort(reverse=True)
+	
+			- reverse()
+			- count()
+			- index()
+			- clear()
+			- copy() 
+			
+			
+		
+			
+			
+TUPLES 
+==================
+	- ordered collection stores both homo and hetro elements
+	- immutable
+	- allows duplicates
+	colors = ("red","yellow","blue","red")
+	print(colors[1])
+	
+	methods
+	=============
+	count()
+	index()
+	
+	
+SET 
+====================
+	- unordered collection stores both homo and hetro
+	- immutable? mutable?
+	- doesn't allow duplicates
+	
+	colors = {"red","yellow","red","blue"}
+	
+	
+DICTIONARY
+===================
+	- unordered collection stores data in key:value
+	
+	
