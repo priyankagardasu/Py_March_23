@@ -102,3 +102,91 @@ DICTIONARY
 	- unordered collection stores data in key:value
 	
 	
+	
+STRINGS & METHODS
+===========================
+- Collection of individual or group of characters is called String
+	characters:
+		letters (a-z A-Z)
+		numbers (0-9)
+		symbols
+		special characters
+		regional letters
+		
+	ex: 
+		'a' 
+		'10.2'
+		'Kumar@1245'
+		""" hello strings session """
+		
+- Different ways of declaration
+	single quotes: ''
+	double quotes: " "
+	thriple double quotes: """ """
+	thriple single quotes: ''' '''
+	
+- String Concentation (merging)
+	- combining two strings using + operator 
+	 ex1:
+	 a = "hello"
+	 b = "hi"
+	 print(a+b) #"hello"+"hi"
+	 
+	- print("kumar" + 40)
+	- str + str --> valid
+	- str+int or int+ str --> Value Error.
+	ex:2 
+	- a = "hello"
+	  print(a * 5) # hello 5 times 
+	  
+	  int*str or str*int --> multiply the strings
+		
+	
+- Escape Sequences in Strings
+	\n : newline
+	\t : tab
+	\\ : back slash
+	\' : single quotes
+	\" : double quotes 
+	
+- Formatting strings 
+	1. c based formatting 
+		%s : string 
+		%d : integers
+		%f : float 
+		trainerName = "kumar"
+		fee = 12000.2637638
+		# c based formatting 
+		print("My name is %s and fee = %.2f"%(trainerName,fee))
+
+		# 2. String.format() 
+		print("My name is {} and fee = {:.2f}".format(trainerName,fee))
+
+		# 3. F String (3.6+)
+		print(f"My name is {trainerName} and fee = {fee}")
+		
+		
+- INDEXING & SLICING 
+	
+	=>>INDEXING
+		+ve : 0 ---> N-1
+		-ve : -1 ---> -N
+		
+	syntax:
+		varName[indexNo]
+		- indexNo is invalid --> IndexError
+		
+	==> SLICING 
+		[start:stop:step]
+		+ve : 
+			start : 0
+			stop: N-1
+			step: 1
+		- ve:
+			start : -1
+			stop: (-N-1)
+			step: -1
+		- > [::-1] --> reverse the data.
+		--> [::] --> print all elements .
+		
+	
