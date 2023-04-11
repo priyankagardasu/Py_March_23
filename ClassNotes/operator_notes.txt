@@ -1,0 +1,14 @@
+OPERATORS
+=========================
+- Python language supports several types of operators
+- Operator is symbol which applies on operands 
+    ex: a + b ==> a, b operands , + : operator.
+	
+
+- Assigment operator
+- Arthmetic operators
+- Comparision/Relation
+- Identity 
+- Membership
+- Logical
+- Bitwise

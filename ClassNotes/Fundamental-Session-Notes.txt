@@ -56,7 +56,7 @@ PRE-REQ
 	------------------------------------
 			OS (system s/w) 
 	----------------------------------
-			H/W(ram,processor,storage,)
+			H/W(ram,processor,storage)
 		  
 ################################################################
 
@@ -86,7 +86,7 @@ PRE-REQ
 			
 			- mkdir name 				--> creating floder/directory
 			
-			- rmdir name                --->  
+			- rmdir name                --->  deletion
 			- notepad filename.ext 		--> to create a file .
 			
 			- type filename            --> shows content of the file.
@@ -155,7 +155,7 @@ PRE-REQ
 			- jupyterPractise
 			
 			
-git clone https://github.com/anil-k-rajamoni18/Py_March_23.git
+git clone https://github.com/anil-k-rajamoni18/LearnPython.git
 	
 1. Python Interperter Installing
  Go to Python.org install latest version 
@@ -224,7 +224,9 @@ git clone https://github.com/anil-k-rajamoni18/Py_March_23.git
 		c , c++ , java 			-->  compilers
 		javascript , python , go --> intepreters
 		
-		==> COMPILER VS Interpreter.
+		==> COMPILER VS Interpreter.?
+		===>What is git and github?
+		==> what is jupyter notebook?
 
 
 	

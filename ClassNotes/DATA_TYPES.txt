@@ -189,4 +189,34 @@ STRINGS & METHODS
 		- > [::-1] --> reverse the data.
 		--> [::] --> print all elements .
 		
+==> regular methods:
+		capitalize()
+		count()
+		endswith()
+		startswith()
+		expandtabs()
+		find()
+		rfind()
+		index()
+		rindex()
+		title()
+		replace()
+		upper()
+		lower()
+
+checking methods:
+	isalnum()
+	isalpha()
+	isdecimal()
+	isdigit()
+	isnumeric()
+	isidentifier()
+	islower()
+	isupper()
+
+covertion methods
+	split() : str --> list
+	join() : list --> str
+
+		
 	
