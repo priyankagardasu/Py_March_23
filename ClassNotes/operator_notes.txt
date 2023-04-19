@@ -5,10 +5,16 @@ OPERATORS
     ex: a + b ==> a, b operands , + : operator.
 	
 
-- Assigment operator
-- Arthmetic operators
-- Comparision/Relation
-- Identity 
-- Membership
-- Logical
-- Bitwise
+- Assigment operator : = 
+- Arthmetic operators : + - * / ** // %
+- Comparision/Relation : < <= > >= == !=
+- Identity : is , is not
+- Membership : in , not in
+- Logical : and or not
+- Bitwise: & , | , ~ , ^ , << ,>>
+
+
+PythonTraining/orgPython/PY_MARCH_23 
+	- right click open git bash 
+	- git status : (nothing to commit)
+	- git pull : 

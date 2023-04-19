@@ -1,0 +1,70 @@
+## CONDITIONAL STATEMENTS 
+================================
+
+- exp should be returning always boolean value either True / False.
+
+	alone if statement
+	============================
+	
+	- if exp:
+		body
+	
+	if else statment
+	===========================
+	- 	if exp:
+			body
+		else:
+			body
+			
+	if elif else statement
+	================================
+	
+	- 	if exp:
+			body
+		elif exp2:
+			body
+		elif exp3:
+			body
+		elif expn:
+			body
+		else:
+			body
+			
+	multiple if statements.
+	================================
+		if exp:
+			body
+		if exp2:
+			body
+		if expn:
+			body
+		else:
+			body
+			
+	
+	
+## LOOPING STATEMENTS 
+===============================
+
+print("hello world")
+print("hello world")
+print("hello world")
+print("hello world")
+
+print("hello world" * 10)
+
+
+marks = [10,20,30,40]
+
+1. range based for loop
+	for i in range(start,stop,step):
+		body
+		
+2. print base for loop
+	for var in sequence: #list, tuple, set, dict,string
+		body
+
+		
+		
+		
+		
