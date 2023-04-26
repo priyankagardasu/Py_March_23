@@ -1,0 +1,71 @@
+### FUNCTIONS
+=================================
+
+-- Case-1
+===================
+
+
+	
+TYPES
+	- prebuild 
+	- user-build 
+	
+	
+CONS
+----------------
+- Debugging is difficult
+- No Resuablity of code
+- Decreases Modularity and Reliablity
+
+	
+Develop a calculator software 
+		- addition
+		- subration
+		- multiplication
+		- division
+		- percentage 
+		
+		
+1. calculator.py
+	
+	#input
+	n1 = int(input('enter n1: ')
+	
+	n2 = int(input('enter n2: ')
+	
+	#addition functionality
+	add = n1 + n2 
+	print(f'addition = {add}')
+	
+	
+
+TASK -1
+=================
+1. create a file in vscode , write a functions for following functionalities.
+
+		
+	addition
+	multiplication
+	division
+
+
+2. Printing Even / Odd upto given range
+3. Priting prime numbers upto given range
+4. Read a textual file and print the data.
+
+
+
+
+	
+
+	
+
+n = int(input())
+for i in range(n):
+	for j in range(n):
+		print(i*j)
+
+
+
+	
+	
