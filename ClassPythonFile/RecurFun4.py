@@ -1,5 +1,8 @@
 import sys
-print(sys.getrecursionlimit())
+
+# print(sys.getrecursionlimit())
+
+sys.setrecursionlimit(10**9)
 
 
 def factorialNum(num):
@@ -13,4 +16,5 @@ def sumOfN(n):
     return n + sumOfN( n- 1)
 
 # print(factorialNum(999))
-print(sumOfN(999))
+print(sumOfN(10000))
+
