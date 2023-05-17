@@ -54,7 +54,8 @@ print("hello world")
 print("hello world" * 10)
 
 
-marks = [10,20,30,40]
+FOR LOOP
+===============================
 
 1. range based for loop
 	for i in range(start,stop,step):
@@ -64,6 +65,92 @@ marks = [10,20,30,40]
 	for var in sequence: #list, tuple, set, dict,string
 		body
 
+		
+	OBSERVATION:
+	------------------------
+		==> PRINT BASED FOR LOOP
+		- Print Based FOR LOOP , we can apply on all data-types (list,tuple,str,set , dictionary)
+		- Mainly used for printing & filtering purpose
+		- Don't have access to the index locations.
+		
+		==>RANGE BASED for loop
+		- we have control on index locations
+		- maily used to change the data at locations
+		- customized output
+			range(start,stop,step)
+		- we can apply on list , tuple ,str
+
+
+		- Only while loop will run into infinite
+	
+		
+
+
+## WHILE LOOPS
+==========================		
+	ex-1:	
+	i = 1
+	n = 100
+	
+	while(i<=n):
+		print("hello")
+		i = i+1
+		
+		
+	i = 0
+	n = 10
+	while(i<=10):
+		if i%2 == 0:
+			print(i)
+		i+=1
+		
+		
+
+	bool(nothing) ---> False
+	bool(something) --> True
+	
+	
+	FALSE 
+	==================
+	bool([]) 
+	bool(())
+	bool({})
+	bool("")
+	bool(0)
+	bool(0.0)
+	
+	True
+	===========
+	bool([10,20]) --- True
+	
+	teams = ["CSK","RCB","MI","RR"] 
+	
+	
+	- while teams:
+		print(teams[0])
+		
+		
+	- while bool(teams):
+		print(teams[0])
+		
+		
+		
+### LOOPING STATEMENTS 
+==================================
+	break 
+	continue
+	pass
+	
+	
+###NESTED LOOPS
+	- loop inside another loop
+	- we use the nested looping to process 2D data (2D list , 2D tuple , 2D sets , 2D dictionary)
+	
+	- BEHAVIOUR:
+		- for one iteration of outer loop , inner loop has to complete execute  all it's iterations.
+		
+	
+	
 		
 		
 		

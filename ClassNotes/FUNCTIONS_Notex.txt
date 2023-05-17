@@ -26,6 +26,14 @@ Develop a calculator software
 		- percentage 
 		
 		
+PROJECT 
+================
+	PACKAGES 
+		- Modules
+			- functions 
+			- .py files
+		- Modules
+		
 1. calculator.py
 	
 	#input
@@ -56,16 +64,100 @@ TASK -1
 
 
 
+
+
+## TYPES OF ARGUMENTS 
+	- required positional args
 	
-
+		def add(a,b):
+			return a+b
+		add(10,20)
+		
+	- * args
+		def sumLst(*lst):
+			pass
+			
+		sumLst(10,20,340,30)
+		
+	- ** kwargs
 	
-
-n = int(input())
-for i in range(n):
-	for j in range(n):
-		print(i*j)
-
-
-
+	- default args
+		
+		def factorial(num=5):
+			pass
+			
+		factorial()
+		factorial(10)
 	
 	
+	
+	1. All functions should handle integer and float data
+	
+	2. read multiple integers/float, do required operations.
+	
+	
+	
+	
+	 Develop a simple program  to generate Strong Password
+		- Minimum 8 characters
+			- one uppercase
+			- one lowercase
+			- one number
+			- one special character
+			
+###############################################################################
+
+
+FUNCTIONS 
+=====================
+
+- FUNCTIONS INTRO 
+- with functions vs without functions
+- Pro's of FUNCTIONS
+- Syntax:
+	declaration
+	calling
+	
+- How to pass inputs to the functions
+- Types of Args.
+	- * args 
+	- ** kwargs 
+	- default args
+	- required args 
+	
+- Pass by Reference vs pass by value
+- Variables Scope , Returning values from functions 
+
+- NESTED FUNCTIONS , RECURSIVE FUNCTIONS
+
+
+
+
+
+STRONG PASSWORD GENERATOR 
+	- one upper case 
+	- one lower case
+	- one symbol
+	- one number 
+	- minimum length : 8
+	
+	hint:
+	import random 
+	
+	methods:
+		randint()
+		randrange()
+		random()
+		choice()
+		shuffle()
+		sample()
+		
+		
+		
+	curl https://reqbin.com/echo -H "Cache-Control: must-revalidate" -H "Pragma: no-cache" -H "Expires: 0"
+	curl https://reqbin.com/echo/get/json -H "Accept: application/json"
+	
+	
+	curl -X GET -H "Authorization: Bearer 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" \
+	-H "Content-Type: application/json" \ 
+	-H "Accepts: application/json" "https://api.openai.com/v1/models"
